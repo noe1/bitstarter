@@ -1,249 +1,243 @@
+
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="utf-8">
-    <title>My First Bitstarter</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap-combined.no-icons.min.css">
-    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css">
-    <link rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fsocial-buttons.css">
-    <script src="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fjquery.js"></script>
-    <script src="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap.js"></script>
-    <link href="http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,300,400,600,700,800"
-          rel="stylesheet" type="text/css">
+    <title>MRP-Manufacturing resours Planing</title>
+    <meta name="viewport" cotent="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet"
+          href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap-2.3.2.css">
     <style type="text/css">
-      
       /* Large desktop */
-      @media (min-width: 980px) {
-       body {
-        padding-top: 60px;
-       }
-       .linediv-l {
-        border-right: 1px white solid;
-       }
-       .linediv-r {
-        border-left: 1px white solid;
-       }
-      }
+      @media (min-width: 980px){
+        body {
+          padding-top:60px;
+        }
+        .linediv-l{
+          border-right: 1px white solid;
+        }
+        .linediv-r{
+          border-left: 1px white solid;
+        }
 
-      /* Landscape phones and down */
-      @media (max-width: 480px) {
-       .copy {
-        padding: 2.5% 10%;
-       }
-       .linediv-l {
-        border-bottom: 1px white solid;
-       }
-       .linediv-r {
-        border-top: 1px white solid;
-       }
       }
-
+      /*Landscape phones and down */
+      @media (max-width: : 480px){
+        .copy{
+          padding:; 2.5% 10%;
+        }
+        .linediv-l{
+          border-bottom: : 1px white solid;
+        }
+        .linediv-r{
+          border-top: : 1px white solid;
+        }
+      }
       /* All form factors */
-
-      /*Main body and headings */
       body {
+        /*
+padding-top: 20px;
+padding-bottom: 40px;
+*/
         font-family: 'Open Sans', Helvetica, Arial, sans-serif;
       }
       .heading, .subheading{
-        font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
-        text-align: center;
+        font-family: 'Ubuntu', , Helvetica, Arial, sans-serif;
       }
+      /*
+.container {
+width: 960px;
+}
+*/
       p.lead {
         padding-top: 1.5%;
         font-size: 24px;
         line-height: 30px;
       }
-      p {
+      p{
         font-size: 18px;
-        line-height: 30px;
+        line-height: 24px;
       }
-
-      /* Video pitch and Action */
-      .pitch {
+      /* Video pitch and action */
+      .pitch{
         padding: 2.5% 0%;
       }
-      .order {
+      .order{
         padding: 2% 0%;
       }
-      .actions {
+      .actions{
         background-color: #343434;
         padding: 3% 0%;
       }
-      .video, .thermometer, .order, .social, .statistics {
+      .video, .thermometer, .order, .social, .statistics{
         text-align: center;
       }
-      .statistics h3, .statistics p {
+      .statistics h3, .statistics p{
         color: white;
       }
 
-      /* Marketing Copy and Footer */
-      .copy {
+      /* Marketing copy and footer */
+      .copy{
         padding-top: 2.5%;
         padding-bottom: 2.5%;
         text-align: justify;
       }
-
-      .asset {
-        padding: 2.5% 0%;
+      .asset{
+        padding-bottom: 2.5%, 0%;
       }
-
-      .footer {
-        color: #cccccc;
+      .footer{
+        color: #CCCCCC;
         text-align: center;
       }
-      .footer p {
+      .footer p{
         font-size: 11px;
       }
-      .footer a {
-        color: #ccccff;
+      .footer a{
+        color: #CCCCFF;
       }
-
     </style>
-</head>
-<body>
-  <div class="navbar navbar-inverse navbar-fixed-top">
-    <div class="navbar-inner">
-      <div class="container">
-<button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-<span class="icon-bar"></span>
-<span class="icon-bar"></span>
-<span class="icon-bar"></span>
-</button>
-<a class="brand" href="#">Bitstarter</a>
-<div class="nav-collapse collapse">
-<ul class="nav">
-<li class="active"><a href="#">Home</a></li>
-<li><a href="#about">About</a></li>
-<li><a href="#contact">Contact</a></li>
-</ul>
-</div><!--/.nav-collapse -->
-      </div>
-    </div>
+  </head>
+  <body>
+
+    <!-- navbar -->
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="brand" href="#">MPS/MRP</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li class="active"><a href="#">Principal</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div><!--/.nav-collapse-->
+      </div><!--/.container-->
+    </div><!--/.navbar-->
   </div>
-  <div class="container">
-    <div class="row-fluid heading">
-      <div class="span12">
-<h1>Product</h1>
+      
+    <div class="container">
+      <div class="row-fluid heading">
+        <div class="span12">
+          <h1>  Free Enterprise Resource Planning (ERP)</h1>
+        </div>
       </div>
-    </div>
+      <div class="row-fluid subheading">
+        <div class="span12">
+          <p class="lead"> Enterprise Resource Planning (ERP)  <b>for the Open Source community</b></p>
+        </div>
+      </div>
+      <div class="row-fluid pitch">
+        <div class="span5 offset1 video">
+          <img src="http://www.vgsglobal.com/es/blog/wp-content/uploads/2010/11/Enterprise-Resource-Planning-ERP-mbaknol.jpg" class="img-polaroid" />
+        </div>
+        <div class="span5 actions">
+          <div class="span8 offset2">
+            <div class="statistics">
+              <div class="span4">
+                <div class="linediv-l">
+                  <h3>1000</h3>
+                  <p>backers</p>
+                </div>
+              </div>
+              <div class="span4">
+                <div class="linediv-c">
+                  <h3>4000</h3>
+                  <p>of $20,000</p>
+                </div>
+              </div>
+              <div class="span4">
+                <div class="linediv-r">
+                  <h3>10</h3>
+                  <p>day left</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="span10 offset1">
+            <div class="thermometer progress active">
+              <div class="bar bar-success" style="width:40%"></div>
+              <div class="bar bar-warning" style="width:20%"></div>
+            </div>
+          </div>
+          <div class="span6 offset3 order">
+            <button class="btn btn-success btn-large">Preorder</button>
+          </div>
+          <div class="span8 offset2 social">
+            <button class="btn btn-twitter"><i class="icon-twitter"></i> | Twiiter </button>
+            <button class="btn btn-facebook"><i class="icon-facebook"></i> | Facebook </button>
+          </div>
+        </div>
+      </div>
 
-    <div class="row-fluid subheading">
-      <div class="span12">
-<!-- Special typography from Bootstrap for lead paragraph. -->
-<!-- http://twitter.github.io/bootstrap/base-css.html#typography -->
-<p class="lead">One sentence description</p>
+      <!-- copy -->
+      <div class="row-fluid section1">
+        <div class="span5 offset1 asset">
+          <img class="img-polaroid" src="http://smallbusiness.chron.com/DM-Resize/photos.demandstudios.com/getty/article/186/1/200362120-001_XS.jpg?w=410&h=410&keep_ratio=1" />
+        </div>
+        <div class="span5 copy">
+          <p>
+    Enterprise resource planning (ERP) is a cross-functional enterprise system driven by an integrated suite of software modules that supports the basic internal business processes of a company. ERP gives a company an integrated real-time view of its core business processes such as production, order processing, and inventory management, tied together by ERP applications software and a common database maintained by a database management systems. Free ERP systems, as Free Software Fundation define, it mean share the final binaries and the code          </p>
+        </div>
       </div>
-    </div>
 
-    <div class="row-fluid pitch">
-      <div class="span5 offset1 video">
-<img class="img-polaroid" src="http://placehold.it/480x300">
+      <div class="row-fluid section2">
+        <div class="span5 offset1 copy copy-right">
+          <p>
+            So, the MPS free-Software , is a complete Enterprise systerm for small companies and even medium companies who wants to save money in a Erp, it is free but with the Quality of the commercial product, and having the source code disponible for no extra costs.
+          </p>
+        </div>
+        <div class="span5 asset">
+          <img class="img-polaroid" src="http://upload.wikimedia.org/wikipedia/commons/thumb/5/53/GNU_and_Tux.svg/620px-GNU_and_Tux.svg.png" />
+        </div>
       </div>
-      <div class="span5 actions">
-<div class="span8 offset2">
-<div class="statistics">
-<div class="span4">
-<div class="linediv-l">
-<h3>1000</h3> <p>backers</p>
-</div>
-</div>
-<div class="span4">
-<div class="linediv-c">
-<h3>$6000</h3> <p>of $10,000</p>
-</div>
-</div>
-<div class="span4">
-<div class="linediv-r">
-<h3>10</h3> <p>days left</p>
-</div>
-</div>
-</div>
-</div>
-<div class="span10 offset1">
-<div class="thermometer progress active">
-<div class="bar bar-success" style="width: 60%;"></div>
-<div class="bar bar-warning" style="width: 40%;"></div>
-</div>
-</div>
+            
+               <div id="collapseOne" class="accordion-body collapse">
+                <div class="accordion-inner">
+The Objective is to have a complete ERP system to share with the open source communitie.
+                </div>
+              </div>
+            </div>
+                  <!-- For the FAQ, we introduce a little bit of JS, using the accordion. -->
+      <!-- This brings in jquery.js and bootstrap.js as dependencies. -->
+      <!-- http://twitter.github.io/bootstrap/javascript.html#collapse -->
+      <div class="row-fluid faq">
+          <div class="span10 offset1">
+            <h3>FAQ</h3>
+            <div class="accordion" id="accordion2">
+              <div class="accordion-group">
+                <div class="accordion-heading">
+                  <a class="accordion-toggle" data-toggle="collapse"
+                     data-parent="#accordion2" href="#collapseOne">
+                    How is News Detective helpful to me?
+                  </a>
+                </div>
+                <div id="collapseOne" class="accordion-body collapse">
+                  <div class="accordion-inner">
+                    It helps to distinguish between news and propaganda.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-group">
+                <div class="accordion-heading">
+                  <a class="accordion-toggle" data-toggle="collapse"
+                     data-parent="#accordion2" href="#collapseTwo">
+                    How does News Detective make its predictions?
+                  </a>
+                </div>
+                <div id="collapseTwo" class="accordion-body collapse">
+                  <div class="accordion-inner">
+                    Think of what we are doing as a spam filter on news stories and metadata.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
 
-<div class="span6 offset3 order">
-<button class="btn btn-success btn-large">Preorder</button>
-</div>
-<div class="span8 offset2 social">
-<button class="btn btn-twitter"><i class="icon-twitter"></i> | Twitter</button>
-<button class="btn btn-facebook"><i class="icon-facebook"></i> | Facebook</button>
-</div>
-      </div>
-    </div>
-
-
-    <div class="row-fluid section1">
-      <div class="span5 offset1 asset">
-<img class="img-polaroid" src="http://placehold.it/480x300">
-      </div>
-      <div class="span5 copy">
-<p>
-Aliqua trust fund authentic, duis pariatur vinyl selfies fugiat cornhole shabby chic. Nihil enim sapiente, Portland meh authentic shoreditch occaecat occupy ethical cred pug retro put a bird on it brunch. Proident commodo irony High Life mollit gentrify. Ethical ullamco proident, excepteur sed sapiente odio post-ironic Echo Park ugh duis. Swag keffiyeh you probably haven't heard of them, cupidatat leggings freegan american apparel intelligentsia vegan iPhone. Banh mi Carles laboris, swag Bushwick jean shorts kitsch Schlitz
-</p>
-      </div>
-    </div>
-    <div class="row-fluid section2">
-      <div class="span5 offset1 copy copy-right">
-<p>
-Aliqua trust fund authentic, duis pariatur vinyl selfies fugiat cornhole shabby chic. Nihil enim sapiente, Portland meh authentic shoreditch occaecat occupy ethical cred pug retro put a bird on it brunch. Proident commodo irony High Life mollit gentrify. Ethical ullamco proident, excepteur sed sapiente odio post-ironic Echo Park ugh duis. Swag keffiyeh you probably haven't heard of them, cupidatat leggings freegan american apparel intelligentsia vegan iPhone. Banh mi Carles laboris, swag Bushwick jean shorts kitsch Schlitz
-</p>
-      </div>
-      <div class="span5 asset">
-<img class="img-polaroid" src="http://placehold.it/480x300">
-      </div>
-    </div>
-    <div class="row-fluid faq">
-      <div class="span10 offset1">
-<h3>FAQ</h3>
-<div class="accordion" id="accordion2">
-<div class="accordion-group">
-<div class="accordion-heading">
-<a class="accordion-toggle" data-toggle="collapse"
-data-parent="#accordion2" href="#collapseOne">
-What does FAQ stand for?
-</a>
-</div>
-<div id="collapseOne" class="accordion-body collapse">
-<div class="accodion-inner">
-Frequently Asked Question.
-</div>
-</div>
-</div>
-<div class="accordion-group">
-<div class="accordion-heading">
-<a class="accordion-toggle" data-toggle="collapse"
-data-parent="#accordion2" href="#collapseTwo">
-What's a Frequently Asked Question?
-</a>
-</div>
-<div id="collapseTwo" class="accordion-body collapse">
-<div class="accordion-inner">
-A question which is commonly asked by users.
-</div>
-</div>
-</div>
-</div>
-      </div>
-    </div>
-    <div class="row-fluid footer">
-      <div class="span12">
-<p>This work is licensed under
-the <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC
-By-SA 3.0
-</a>, without all the cruft that would otherwise be
-put at the bottom of the page.</p>
-      </div>
-    </div>
-  </div>
-</div>
-</body>
+    
+  </body>
 </html>
-
-
